@@ -32,6 +32,15 @@ int posicionPrimerElemento(int vector[], int tam, int buscar){
 	return -1;
 }
 
+void mostrarMenoresQue(int vector[],int tam, int n){
+	int i;
+	for(i=0;i<n;i++){
+		if(vector[i]<n){
+			printf("%d\t",vector[i]);
+		}
+	}
+}
+
 // ejercicio de gasolina
 
 float getPrecio(int tipo){

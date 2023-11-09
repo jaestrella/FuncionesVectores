@@ -23,7 +23,10 @@ void mostrarVector(int vector[], int tam);
  * en el vector del numero indicado por buscar. Devuelve -1 si el elemento no ha sido encontrado
  */
 int posicionPrimerElemento(int vector[], int tam, int buscar);
-
+/**
+ * funcion que muestra los elementos menores a un numero dado
+ */
+void mostrarMenoresQue(int vector[],int tam, int n);
 /**
  * funcion que calcula el precio de gasolina
  */
