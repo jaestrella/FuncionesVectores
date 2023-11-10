@@ -50,6 +50,24 @@ void valoresRango(int vector[],int tam, int inicio, int fin){
 	}
 }
 
+void rotarIzquierda(int vector[],int tam){
+	int primero=vector[0];
+	int i;
+	for(i=0;i<tam-1;i++){
+		vector[i]=vector[i+1];
+	}
+	vector[tam-1]=primero;
+}
+
+void rotarDerecha(int vector[],int tam){
+	int ultimo=vector[tam-1];
+	int i;
+	for(i=tam-2;i>=0;i--){
+		vector[i+1]=vector[i];
+	}
+	vector[0]=ultimo;
+}
+
 // ejercicio de gasolina
 
 float getPrecio(int tipo){

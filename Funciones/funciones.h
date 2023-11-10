@@ -32,17 +32,19 @@ void mostrarMenoresQue(int vector[],int tam, int n);
  */
 void valoresRango(int vector[],int tam, int inicio, int fin);
 /**
+ * funcion que rota una posicion a la izquierda el array
+ */
+void rotarIzquierda(int vector[],int tam);
+/**
+ * funcion que rota una posicion a la derecha el array
+ */
+void rotarDerecha(int vector[],int tam);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);
 float calculaImporte(int tipo, float litros);
-/**
- * funciones de cine
- */
-float descuento2x1(int entradas, float precioEntradas, int cantPalomitas, float precioPalomitas);
-float palomitasDescuento(int entradas, int cantPalomitas,float precioEntradas,float precioPalomitas);
-float diaEspectador(int entradasAdulto,int entradasChild, float precioEntradas, int cantPalomitas, float precioPalomitas);
-float facturaCine(int adultos, int child, int cantPalomitas);
+
 
 
 #endif /* FUNCIONES_H_ */
