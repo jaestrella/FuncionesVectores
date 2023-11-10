@@ -28,6 +28,10 @@ int posicionPrimerElemento(int vector[], int tam, int buscar);
  */
 void mostrarMenoresQue(int vector[],int tam, int n);
 /**
+ * funcion que muestra los valores dentro de un rango
+ */
+void valoresRango(int vector[],int tam, int inicio, int fin);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);
