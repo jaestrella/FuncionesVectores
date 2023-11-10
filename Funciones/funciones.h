@@ -40,6 +40,10 @@ void rotarIzquierda(int vector[],int tam);
  */
 void rotarDerecha(int vector[],int tam);
 /**
+ * funcion que busca un numero y muestra los numeros mayores a partir de ahi
+ */
+void mostrarMayores(int vector[], int tam, int buscar);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);

@@ -68,6 +68,16 @@ void rotarDerecha(int vector[],int tam){
 	vector[0]=ultimo;
 }
 
+void mostrarMayores(int vector[], int tam, int buscar){
+	int i;
+	for(i=0;i<tam;i++){
+		if(vector[i]>=buscar){
+			printf("%d\t",vector[i]);
+		}
+	}
+
+}
+
 // ejercicio de gasolina
 
 float getPrecio(int tipo){
