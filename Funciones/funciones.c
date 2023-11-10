@@ -75,7 +75,15 @@ void mostrarMayores(int vector[], int tam, int buscar){
 			printf("%d\t",vector[i]);
 		}
 	}
+}
 
+int sonPararlelos(int v1[], int v2[], int tam){
+	int i;
+	for(i=1;i<tam;i++){
+		if(v1[i-1]*v2[i]==v1[i]*v2[i-1]){
+			return 0;
+		}
+	}return 1;
 }
 
 // ejercicio de gasolina

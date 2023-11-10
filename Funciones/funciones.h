@@ -44,6 +44,10 @@ void rotarDerecha(int vector[],int tam);
  */
 void mostrarMayores(int vector[], int tam, int buscar);
 /**
+ * funcion que dice si dos arrays son paralelos
+ */
+int sonPararlelos(int v1[], int v2[], int tam);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);
