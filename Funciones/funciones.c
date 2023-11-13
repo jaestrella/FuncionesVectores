@@ -105,7 +105,15 @@ int capicua(int vector[], int tam){
 }
 
 void copiarReves(int vector[], int tam){
-
+	int i=0;
+	int j=tam-1;
+	while(i<j){
+		int aux=vector[i];
+		vector[i]=vector[j];
+		vector[j]=aux;
+		j--;
+		i++;
+	}
 }
 
 void sumarVector(int v1[], int v2[],int v3[], int tam){
