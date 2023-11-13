@@ -86,6 +86,21 @@ int sonPararlelos(int v1[], int v2[], int tam){
 	}return 1;
 }
 
+int capicua(int vector[], int tam){
+	int i;
+	int j=tam-1;
+	for(i=0;i<tam;i++){
+		if(vector[i]!=vector[j]){
+			j--;
+			return 1;
+		}else{
+			return 0;
+		}
+	}
+	return 0;
+
+}
+
 // ejercicio de gasolina
 
 float getPrecio(int tipo){

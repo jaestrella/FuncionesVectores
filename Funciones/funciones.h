@@ -48,6 +48,10 @@ void mostrarMayores(int vector[], int tam, int buscar);
  */
 int sonPararlelos(int v1[], int v2[], int tam);
 /**
+ * funcion que indica si un número es capicua
+ */
+int capicua(int vector[], int tam);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);
