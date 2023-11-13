@@ -52,6 +52,14 @@ int sonPararlelos(int v1[], int v2[], int tam);
  */
 int capicua(int vector[], int tam);
 /**
+ * funcion que le da la vuelta al array
+ */
+void copiarReves(int vector[], int tam);
+/**
+ * funcion que suma dos vectores
+ */
+void sumarVector(int v1[], int v2[], int v3[], int tam);
+/**
  * funcion que calcula el precio de gasolina
  */
 float getPrecio(int tipo);

@@ -70,8 +70,12 @@ void rotarDerecha(int vector[],int tam){
 
 void mostrarMayores(int vector[], int tam, int buscar){
 	int i;
+	int sinPosicion=0;
 	for(i=0;i<tam;i++){
-		if(vector[i]>=buscar){
+		if(vector[i]==buscar){
+			sinPosicion++;
+		}
+		if(sinPosicion>0){
 			printf("%d\t",vector[i]);
 		}
 	}
@@ -98,6 +102,18 @@ int capicua(int vector[], int tam){
 		}
 	}
 	return 0;
+}
+
+void copiarReves(int vector[], int tam){
+
+}
+
+void sumarVector(int v1[], int v2[],int v3[], int tam){
+	int i;
+	for(i=0;i<tam;i++){
+		v3[i]=v1[i]+v2[i];
+		printf("%d\t",v3[i]);
+	}
 
 }
 
