@@ -17,7 +17,7 @@ int main(void) {
 	int numeros[MAX],numeros2[MAX],numeros3[MAX];
 
 	do{
-		printf("Introduce el tamaño del primer array (1-30): ");
+		printf("Introduce el tamaño del array (1-30): ");
 		fflush(stdout);
 		scanf("%d",&tam);
 	}while((tam<=0||tam>MAX));

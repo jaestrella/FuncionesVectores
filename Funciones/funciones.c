@@ -116,6 +116,26 @@ void copiarReves(int vector[], int tam){
 	}
 }
 
+void unirVectores(int v1[], int v2[], int tam, int tam2){
+	int concatena=tam+tam2;
+	int v3[concatena];
+	int i;
+	int j;
+	for(i=0;i<tam;i++){
+		v3[i]=v1[i];
+		j=i;
+	}
+	for(i=0;i<tam2;i++){
+		j++;
+		v3[j]=v2[i];
+	}
+	for(i=0;i<concatena;i++){
+		printf("%d\t",v3[i]);
+	}
+
+
+}
+
 void sumarVector(int v1[], int v2[],int v3[], int tam){
 	int i;
 	for(i=0;i<tam;i++){

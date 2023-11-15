@@ -56,6 +56,10 @@ int capicua(int vector[], int tam);
  */
 void copiarReves(int vector[], int tam);
 /**
+ * funcion que junta dos vectores
+ */
+void unirVectores(int v1[], int v2[], int tam, int tam2);
+/**
  * funcion que suma dos vectores
  */
 void sumarVector(int v1[], int v2[], int v3[], int tam);
