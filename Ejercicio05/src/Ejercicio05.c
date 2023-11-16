@@ -31,7 +31,7 @@ int main(void) {
 	mostrarVector(numeros,tam);
 
 	printf("\n");
-	puts("Los datos movidos una posicion a la izquierda son: ");
+	puts("Los datos movidos una posicion a la derecha son: ");
 	rotarDerecha(numeros,tam);
 	mostrarVector(numeros,tam);
 }

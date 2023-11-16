@@ -62,8 +62,8 @@ void rotarIzquierda(int vector[],int tam){
 void rotarDerecha(int vector[],int tam){
 	int ultimo=vector[tam-1];
 	int i;
-	for(i=tam-2;i>=0;i--){
-		vector[i+1]=vector[i];
+	for(i=tam-1;i>0;i--){
+		vector[i]=vector[i-1];
 	}
 	vector[0]=ultimo;
 }
