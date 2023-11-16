@@ -44,7 +44,7 @@ void mostrarMenoresQue(int vector[],int tam, int n){
 void valoresRango(int vector[],int tam, int inicio, int fin){
 	int i;
 	for(i=0;i<tam;i++){
-		if(vector[i]>inicio && vector[i]<fin){
+		if(vector[i]>=inicio && vector[i]<fin){
 			printf("%d\t",vector[i]);
 		}
 	}
