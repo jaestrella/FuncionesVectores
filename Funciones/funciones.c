@@ -72,7 +72,7 @@ void mostrarMayores(int vector[], int tam, int buscar){
 	int i;
 	int sinPosicion=0;
 	for(i=0;i<tam;i++){
-		if(vector[i]==buscar){
+		if(vector[i]>=buscar){
 			sinPosicion++;
 		}
 		if(sinPosicion>0){
