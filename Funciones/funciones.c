@@ -95,7 +95,6 @@ int capicua(int vector[], int tam){
 	int j=tam-1;
 	for(i=0;i<tam/2;i++){
 		if(vector[i]!=vector[j]){
-			j--;
 			return 0;
 		}j--;
 
