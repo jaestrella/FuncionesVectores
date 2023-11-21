@@ -93,15 +93,14 @@ int sonPararlelos(int v1[], int v2[], int tam){
 int capicua(int vector[], int tam){
 	int i;
 	int j=tam-1;
-	for(i=0;i<tam;i++){
+	for(i=0;i<tam/2;i++){
 		if(vector[i]!=vector[j]){
 			j--;
-			return 1;
-		}else{
 			return 0;
-		}
+		}j--;
+
 	}
-	return 0;
+	return 1;
 }
 
 void copiarReves(int vector[], int tam){

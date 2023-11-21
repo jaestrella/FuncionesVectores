@@ -29,7 +29,7 @@ int main(void) {
 	mostrarVector(numeros,tam);
 
 	printf("\n");
-	if(capicua(numeros,tam)==0){
+	if(capicua(numeros,tam)){
 		printf("El vector es capicua");
 	}else
 		printf("El vector NO es capicua");
