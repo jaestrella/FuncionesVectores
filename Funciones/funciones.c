@@ -97,7 +97,6 @@ int capicua(int vector[], int tam){
 		if(vector[i]!=vector[j]){
 			return 0;
 		}j--;
-
 	}
 	return 1;
 }
@@ -197,6 +196,28 @@ float descuento2x1(int entradas, float precioEntradas, int cantPalomitas, float 
 	float pe=(entradas/2)+(entradas%2);
 	precioFinal=pe*precioEntradas+(cantPalomitas*precioPalomitas);
 	return precioFinal;
+}
+
+int esPalindromo(char cadena[]){
+	int i,j;
+
+	i=0;
+	j=strlen(cadena)-1;
+
+	while(i<j){
+		while(i<strlen(cadena)&&cadena[i]==' '){
+			i++;
+		}
+		while(j>0&&cadena[j]==' '){
+			j--;
+		}
+		if(cadena[i]!=cadena[j]){
+			return 0;
+		}
+		i++;
+		j--;
+	}
+	return 1;
 }
 
 

@@ -69,6 +69,6 @@ void sumarVector(int v1[], int v2[], int v3[], int tam);
 float getPrecio(int tipo);
 float calculaImporte(int tipo, float litros);
 
-
+int esPalindromo(char cadena[]);
 
 #endif /* FUNCIONES_H_ */
